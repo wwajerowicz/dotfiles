@@ -1,0 +1,13 @@
+[user]
+	name = Wojtek Wajerowicz
+[alias]
+    graph = !git log --graph --color --abbrev-commit --pretty=oneline --decorate
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
