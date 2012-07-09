@@ -11,6 +11,7 @@ set nocompatible
 " first clear any existing autocommands:
 autocmd!
 " Call pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect() 
 " Restore the screen when we're exiting and set correct terminal
 behave xterm
