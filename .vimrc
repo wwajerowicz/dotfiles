@@ -253,6 +253,7 @@ au FileType xhtml set formatoptions+=l
 au FileType xhtml set formatoptions-=t
 au FileType djangohtml set formatoptions+=l
 au FileType djangohtml set formatoptions-=t
+au! BufRead,BufNewFile *.twig setfiletype htmldjango
 
 " for TXT (set up myself) auto-wrap
 au BufNewFile,BufRead *.txt         setf txt
