@@ -7,12 +7,26 @@
 " | VIM Settings                                                              |
 " -----------------------------------------------------------------------------
 set nocompatible
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+Bundle 'fholgado/minibufexpl.vim'
+Bundle 'tomasr/molokai'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpope/vim-rails'
+Bundle 'vim-scripts/dbext.vim'
+
+filetype plugin indent on " required!
  
 " first clear any existing autocommands:
 autocmd!
-" Call pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect() 
 " Restore the screen when we're exiting and set correct terminal
 behave xterm
 " if &term == "xterm"
