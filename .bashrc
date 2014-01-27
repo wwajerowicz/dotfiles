@@ -108,7 +108,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #avoid svn directories in grep             
-export GREP_OPTIONS="--exclude-dir=.svn -r"
+export GREP_OPTIONS="--exclude-dir=.svn"
 
 #use vim as default svn_editor
 export SVN_EDITOR=vim
