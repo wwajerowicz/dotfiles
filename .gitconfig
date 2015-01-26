@@ -1,5 +1,4 @@
 [user]
-	name = Wojtek Wajerowicz
 [alias]
     graph = !git log --graph --color --abbrev-commit --pretty=oneline --decorate
 [diff]
