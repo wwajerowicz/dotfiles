@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-rails'
 Bundle 'vim-scripts/dbext.vim'
+Bundle 'rodjek/vim-puppet'
 
 filetype plugin indent on " required!
  
